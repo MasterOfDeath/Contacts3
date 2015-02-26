@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Контакты</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Найти</string>
+    <string name="action_close_search">Выйти из режима поиска</string>
+    <string name="action_reports">Отчёты</string>
+    <string name="action_mode">Режим</string>
+    <string name="action_mode_all">Все</string>
+    <string name="action_mode_active">Активные</string>
+    <string name="action_mode_archive">Архивные</string>
+    <string name="del_contact">Удалить контакт?</string>
+    <string name="add_contact">Добавить контакт?</string>
+    <string name="import_contacts">Загрузить базу</string>
+    <string name="export_contacts">Выгрузить базу</string>
+    <string name="drag_date">Перенести встречу в Последние визты?</string>
+    <string name="activate_contact">Сделать контакт активным?</string>
+    <string name="deactivate_contact">Сделать контакт архивным?</string>
+    <string name="chBoxStatusTextActive">Контакт активен</string>
+    <string name="chBoxStatusTextDeactive">Архивный контакт</string>
+    <string name="search_title">Поиск</string>
+    <string name="tvFIO">ФИО_др</string>
+    <string name="tvInfo">Доп  </string>
+    <string name="tvDolTen">Долг_прогр</string>
+    <string name="tvNextDate">След_визит</string>
+    <string name="tvLastDate">Посл_визит</string>
+    <string name="tvSaerchLabelActiv">Активных контактов</string>
+    <string name="tvSaerchLabelArchiv">Архивных контактов</string>
+    <string name="tvSaerchLabelAll">Во всех контактах</string>
+    <string name="strbtnUpdate">Обновить поле</string>
+    <string name="tvLog">Создан/изменён: </string>
+    <string name="alert_shutdown">Программа будет закрыта, откройте её снова самостоятельно.</string>
+
+</resources>

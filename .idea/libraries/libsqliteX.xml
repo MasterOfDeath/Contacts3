@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="libsqliteX">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/libsqliteX.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

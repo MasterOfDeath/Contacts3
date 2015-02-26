@@ -1,0 +1,89 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+    <item
+        android:id="@+id/action_close_search"
+        android:orderInCategory="1"
+        android:showAsAction="always|withText"
+        android:icon="@drawable/ic_close_search"
+        android:visible="false"
+        android:title="@string/action_close_search"/>
+
+    <item
+        android:id="@+id/actionLeft"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_left"
+        android:title="Left"/>
+
+    <item
+        android:title="test"
+        android:id="@+id/itemTest"
+        android:enabled="false"
+        android:showAsAction="always"/>
+
+    <item
+        android:id="@+id/actionRight"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_right"
+        android:title="Right"/>
+
+
+    <!--dummy item to get a nice separator-->
+    <item
+        android:title=""
+        android:showAsAction="always"
+        android:enabled="false" />
+
+    <item android:id="@+id/action_mode"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_mode_active"
+        android:title="@string/action_mode">
+        <menu>
+            <item android:id="@+id/action_mode_all"
+                android:title="@string/action_mode_all"
+                android:icon="@drawable/ic_mode_all"/>
+            <item android:id="@+id/action_mode_active"
+                android:title="@string/action_mode_active"
+                android:icon="@drawable/ic_mode_active"/>
+            <item android:id="@+id/action_mode_archive"
+                android:title="@string/action_mode_archive"
+                android:icon="@drawable/ic_mode_deactive"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/action_search"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_search"
+        android:title="@string/action_search"/>
+
+    <item
+        android:id="@+id/newContact"
+        android:orderInCategory="3"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_add"
+        android:title="New"/>
+
+    <item
+        android:id="@+id/delContact"
+        android:orderInCategory="4"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_delete"
+        android:title="@string/del_contact"/>
+
+    <item
+        android:id="@+id/importContacts"
+        android:orderInCategory="5"
+        android:showAsAction="never|withText"
+        android:icon="@drawable/ic_import"
+        android:title="@string/import_contacts"/>
+
+    <item
+        android:id="@+id/exportContacts"
+        android:orderInCategory="5"
+        android:showAsAction="never|withText"
+        android:icon="@drawable/ic_export"
+        android:title="@string/export_contacts"/>
+
+</menu>
